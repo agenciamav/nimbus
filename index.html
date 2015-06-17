@@ -12,6 +12,9 @@
 		<!-- Custom CSS -->
 		<link href="css/style.css" rel="stylesheet">
 
+        <!-- font awesome -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -21,32 +24,108 @@
 	</head>
 	<body>
 
-		
-		<section id="header" class="appear"></section>
-		<div class="container">
 
-		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
-			 <div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="fa fa-bars color-white"></span>
-					</button>
-					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">NIMBUS
-					</a></h1>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="index.html">Conheça a </br>construtora</a></li>
-						<li><a href="#section-about">empreendimentos </br>em andamento</a></li>
-						<li><a href="#section-works">Obras </br>concluídas</a></li>
-						<li><a href="#section-contact">fale </br>conosco</a></li>
-					</ul>
-				</div><!--/.navbar-collapse -->
-			</div>
-		</div>
+		<!--header-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+
+            <!-- logo-->
+            <div class="navbar-header page-scroll">             
+                <a class="navbar-brand" href="#page-top">NIMBUS</a>
+            </div>
+            <!-- fim logo-->
+
+            <!-- menu -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#conheca">CONHEÇA A </br>CONSTRUTORA</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#emandamento">EMPREENDIMENTOS</br>EM ANDAMENTO</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#concluidas">OBRAS </br>CONCLUÍDAS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contato">FALE </br>CONOSCO</a>
+                    </li>
+                </ul>
+                     <!-- social -->
+                <div class="linha"> </div>
+
+                <div class="face">
+                    <a class="btn" href="#" style="color: #aaabad;"><i class="fa fa-facebook fa-2x"></i></a>
+                 </div>
+                      <!-- fim social -->
+            </div>
+            <!-- fim menu-->
         </div>
-		
+        <!-- /.container-->
 
+        
+
+         <!-- slide-->
+
+         <section id="slide">
+            <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+              <!-- Overlay -->
+                <div class="overlay"></div>
+
+                  <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#bs-carousel" data-slide-to="1"></li>
+                      <li data-target="#bs-carousel" data-slide-to="2"></li>
+                    </ol>
+  
+                     <!-- Wrapper for slides -->
+                       <div class="carousel-inner">
+                         <div class="item slides active">
+                           <div class="slide-1"></div>
+                             <div class="hero">
+                              <hgroup>
+                               <h1>We are creative</h1>        
+                               <h3>Get start your next awesome project</h3>
+                              </hgroup>
+          
+                         </div>
+                       </div>
+
+                       <div class="item slides">
+                         <div class="slide-2"></div>
+                          <div class="hero">        
+                          <hgroup>
+                            <h1>We are smart</h1>        
+                            <h3>Get start your next awesome project</h3>
+                          </hgroup>                
+                        </div>
+                       </div>
+
+                       <div class="item slides">
+                         <div class="slide-3"></div>
+                          <div class="hero">        
+                           <hgroup>
+                             <h1>We are amazing</h1>        
+                             <h3>Get start your next awesome project</h3>
+                           </hgroup>
+                          </div>
+                         </div> 
+                       </div>
+                       
+                      </section>
+                       <!--fim slide-->
+
+
+
+
+        
+    </nav>
+		
+  
 		<!-- jQuery -->
 		<script src="js/jquery.js"></script>
 
