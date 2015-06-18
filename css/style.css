@@ -112,7 +112,6 @@ li.separator a {
 
 #conheca h2{
   font-size: 54px;
-  margin-left: 45%;
   color: #000;
   margin-top: 15%;
 }
@@ -128,13 +127,13 @@ li.separator a {
 /* SECTION EM ANDAMENTO */
 
 #emandamento p {
-  margin-left: 45%;
+  
   color: #FFF;
   margin-top: 20px;
+  float: left;
 }
 #emandamento h1 {
   font-size: 37px;
-  margin-left: 45%;
   color: #fff;
   margin-top: 15%;
 }
