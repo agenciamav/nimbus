@@ -126,11 +126,29 @@ li.separator a {
 
 
 /* SECTION EM ANDAMENTO */
+
+#emandamento p {
+  margin-left: 45%;
+  color: #FFF;
+  margin-top: 20px;
+}
+#emandamento h1 {
+  font-size: 37px;
+  margin-left: 45%;
+  color: #fff;
+  margin-top: 15%;
+}
 #emandamento .carousel .carousel-caption {
   left: 20%;
   right: 20%;
   padding-bottom: 30px;
   text-align: left;
+}
+#emandamento .carousel .carousel-caption h2 {
+  font-size: 54px;
+  margin-left: 45%;
+  color: #000;
+  margin-top: 15%;
 }
 #emandamento hr {
   width: 80px;
@@ -140,7 +158,10 @@ li.separator a {
   border-top: 10px solid #FFFFFF;
   float: left;
 }
-
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  line-height: 1;
+  height: 100%;
+}
 .mansory{
   position: absolute;
   /* left: 15%; */
