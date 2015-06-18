@@ -7,11 +7,21 @@
 body{
   font-family: "nexa", serif;
 }
+
 h1, h2{
   font-family: "lady_ice", serif;
 }
+
 h3, h4, h5{
  font-family: "nexa", serif; 
+}
+hr {
+  width: 80px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 0;
+  border-top: 10px solid #393e51;
+  float: left;
 }
 
 
@@ -44,6 +54,72 @@ li.separator a {
 }
 
 /* SECTION SLIDER */
+
 #header_slider{
   margin-top: 98px;
+}
+#header_slider hr {
+  width: 120px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 0;
+  border-top: 3px solid #ced0d2;
+  float: right;
+}
+
+.carousel-caption {
+  left: 20%;
+  right: 20%;
+  padding-bottom: 30px;
+  text-align: right;
+}
+.carousel-indicators {
+  bottom: 20px;
+  text-align: right;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  background-color: #fff;
+  border-radius: 0;
+  cursor: pointer;
+
+}
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #c1c1c3;
+    border: none;
+}
+
+/* SECTION CONHEÇA */
+
+#conheca{
+  padding: 80px 0;
+}
+
+#conheca p {
+  margin-top: 20px;
+  font-size: 14px;
+  padding-right: 20px;
+  text-align: justify;
+  color: #5b5b5b;
+}
+
+#conheca h2{
+  font-size: 54px;
+  margin-left: 45%;
+  color: #000;
+  margin-top: 15%;
+}
+#conheca h3{
+  color: #393e51;
+  line-height: 27px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 42px;
 }
