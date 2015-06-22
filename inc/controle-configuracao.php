@@ -26,7 +26,7 @@
 	/*
 	* Controle de URL
 	*/
-	$url = explode("/", $_GET['url']);
+	$url = explode("/", @$_GET['url']);
 	
 	$paginas_permitidas[0] = array('home');
 	$paginas_permitidas[1] = array('');
