@@ -9,7 +9,10 @@
 	endswitch;
 ?>
 <head>
-	<title><?php echo $title ?></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<meta http-equiv="cache-control" content="public" />
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="language" content="pt-br" />
@@ -24,3 +27,4 @@
 	<meta name="DC.rights" content="Copyright© by Studio72 All rights reserved." />
 	<meta name="geo.region" content="BR-RS" />
 	
+	<title><?php echo $title ?></title>

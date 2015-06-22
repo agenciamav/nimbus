@@ -1,31 +1,22 @@
 	<?php include ('meta-tags.php');?>
 	
-	<!-- favicon 
-	<link rel="shortcut icon" href="<?php echo DIR; ?>/images/favicon.ico" type="image/x-icon">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+    
+    <!-- slic carousel CSS - obras -->
+	<link rel="stylesheet" type="text/css" href="slide-obras/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slide-obras/slick/slick-theme.css"/>
 	
-	<!-- css -->
-	<link href="<?php echo DIR; ?>/css/fonts.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo DIR; ?>/css/style.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo DIR; ?>/css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo DIR; ?>/css/jqtransform.css" rel="stylesheet" type="text/css" />        
-	
-	<!-- scripts -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script type="text/javascript" src="<?php echo DIR; ?>/js/jquery.fancybox.pack.js"></script>
-	<script type="text/javascript" src="<?php echo DIR; ?>/js/jquery.jqtransform.js"></script>            
-	<script type="text/javascript" src="<?php echo DIR; ?>/js/jquery.mask.js"></script> 
-	<script type="text/javascript" src="<?php echo DIR; ?>/js/validate.js"></script> 
-	<script type="text/javascript" src="<?php echo DIR; ?>/js/scripts.js"></script>
-	<script type="text/javascript">
-		document.createElement("article");
-		document.createElement("nav");
-		document.createElement("section");
-		document.createElement("header");
-		document.createElement('main');
-		document.createElement("aside");
-		document.createElement("figure");
-		document.createElement("legend");
-		document.createElement("footer");
-	</script>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
