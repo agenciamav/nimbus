@@ -1,0 +1,3 @@
+Versão 2011
+
+modificado para funcionar no IE9
