@@ -1,0 +1,129 @@
+/* CSS -  Global.css - estilo principal do admin */
+@import url(global.css);
+
+/* CSS -  arquivo que faz o estilo do index.php - Require Global.css */
+
+#container_master{
+	position: relative;
+	width:970px !important; /* barras de sombra com 10px de cada lado do container */
+	margin:0 auto;
+	text-align:center;
+	padding-top:26px;
+}
+
+#container{
+	position: relative;
+	float:left;
+	margin:0 auto;
+	width:890px !important; /* barras de sombra com 10px de cada lado do container */
+	text-align:left;
+	background-color:#FFF;
+	padding:15px 10px 60px 15px;
+}
+
+
+#topo{width:98%; height:80px;}
+
+#busca {width:311px;height:45px; float:right;}
+#busca input{float:left;}
+#busca #palavra{height:20px; width:210px; border:1px solid #AAA; font-size:16px; padding-left:5px;}
+#busca h2{font-size:14px;}
+
+#menu {float:left;width:18%; margin:1% 0 0 0;}
+#menu .bloco_texto {width:65%; height:40px; float:left; padding-top:15px; font-size:11px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; font-weight:bold;}
+#menu .bloco_imagem {width:30%; height:55px; float:left;}
+
+#modulo {
+	float:left;
+	width:76%; 
+	padding:1% 2.5% 3% 2.5%; 
+	background:url(../img/bg-detalhe-left.jpg) repeat-y;
+	border:1px dotted #CCC; 
+	margin-top:1%;
+}
+#modulo h1 {padding-bottom:5px; margin-bottom:5px; font-size:14px; border-bottom:1px dotted #DDD;}
+#modulo fieldset{width:47%;float:left; padding-top:10px; border:0;}
+fieldset label{line-height:20px; display:block;}
+.inputText{width:295px;border:1px solid #CCCCCC; height:18px; font-size:14px; background-color: #F9F9F9; color:#333; padding-left:5px;}
+.inputSelect{width:303px;border:1px solid #CCCCCC; height:22px; font-size:14px; background-color: #F9F9F9; color:#333; padding-left:5px;}
+.inputRadio{margin-right:8px;}
+.inputCheckbox{margin-right:5px;}
+.inputFile{width:300px;border:1px solid #CCCCCC; font-size:14px; background-color: #F9F9F9; color:#333;}
+.textarea{width:295px;border:1px solid #CCCCCC; height:100px; font-size:14px; background-color: #F9F9F9; color:#333; padding-left:5px; resize:none;}
+
+fieldset#moduloInterno {padding:2% 2% 3% 2%; background:url(../img/bg-detalhe-left.jpg) repeat-y; border:1px dotted #CCC; margin-top:30px; float:right;}
+#moduloInterno ul{width:98%;}
+#moduloInterno li{float:left;list-style-type:none;margin:0;padding:1%;width:96%;}
+#moduloInterno ul.rep li{float:left;list-style-type:none;margin:0;padding:1%;width:48%;}
+#moduloInterno .acao{float:left;list-style-type:none;margin:0;padding:1%;width:95px;}
+#moduloInterno h1{font-size:12px; font-weight:600;}
+
+.listar{width:100%;border:0;}
+#listarHead{margin-top:20px;}
+
+#checar{float:right;}
+#tableMarcar{text-align:right; line-height:30px;}
+
+table.paginacao td{border:0;}
+
+.box_cor_input {width:40px; height:50px; margin-right:5px; float:left; text-align:center;}
+
+.cor {width:40px; height:27px;}
+
+.input {width:40px; height:15px; margin-top:7px;}
+
+/* imagens */
+.img_conteudo {
+	padding: 5px;
+	background-color:#F0F0F0;
+	border:solid #CCCCCC 1px;
+	text-align:center;
+	margin:0 16px 16px 0;
+	width:191px;
+	float:left;
+}
+
+.img_conteudo img{
+	text-align:center;
+	border:solid #CCCCCC 1px;
+	z-index:1;
+}
+.img_botaoLegenda{
+	border:1px dotted #ccc;
+	width:174px;
+	text-align:center;
+	margin:0 auto;
+	height:16px;
+	margin-top:5px;
+	font-size:10px;
+	color:#1B1D2E;
+}
+
+.img-vlightbox1 {
+	text-align:center; 
+	float:left; 
+	margin-bottom:15px;
+}
+
+.thumb{
+	width:100px;
+	height:100px;
+	background-color:#F00;
+	border:1px solid #F00;
+}
+#formAcao label.error, #formAcao input.submit { color:#F00; }
+
+#sort_images {padding-top:10px;}
+#sort_images ul {margin: 0;}
+
+#sort_images li{
+	list-style: none;
+	margin: 0 0 4px 0;
+	padding: 10px;
+	border: #CCCCCC solid 1px;
+	color:#fff;
+	width:260px;
+	text-align:center;
+	background-color:#EAEAEA;
+}
+/* fim imagens */

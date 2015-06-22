@@ -1,0 +1,467 @@
+form.jqtransformdone label{
+	margin-top:8px;
+	margin-right: 8px;
+	display: block;
+	float:left;
+}
+form.jqtransformdone div.rowElem{
+	clear:both;
+	padding:4px 0px;
+}
+/* -------------
+ * Buttons
+ * ------------- */
+/*
+button.jqTransformButton {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	overflow: visible;
+	font-family: Arial;
+}
+
+*:first-child+html button.jqTransformButton[type]{width: 1;} /* IE7 */
+/*
+button.jqTransformButton span {
+	background: transparent url(../img/btn_right.gif) no-repeat right top;
+	display: block;
+	float: left;
+	padding: 0px 4px 0px 0px; /* sliding doors padding */
+/*	margin: 0px;
+	height: 33px;
+}
+
+button.jqTransformButton span span {
+	background: transparent url(../img/btn_left.gif) no-repeat top left;
+	color: #0e5084;
+	padding: 8px 4px 0px 8px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 13px;
+	display: block;
+	text-decoration: none;
+	height: 33px;
+}
+
+/*hover*//*
+button.jqTransformButton_hover span span { opacity: 0!important; filter:alpha(opacity=0); }
+button.jqTransformButton_hover span { opacity: 0!important; filter:alpha(opacity=0); }
+
+/*clicked*//*
+button.jqTransformButton_click span span {opacity: 0!important; filter:alpha(opacity=0); }
+button.jqTransformButton_click span { opacity: 0!important; filter:alpha(opacity=0); }
+
+/* IE 6 *//*
+* html button.jqTransformButton { height:33px; }
+* button.jqTransformButton span span { height: 25px; }
+/* IE 7 *//*
+*+ html button.jqTransformButton { height:33px; }
+*+ button.jqTransformButton span span { height: 25px; }
+
+
+/* -------------
+ * Inputs
+ * ------------- */
+/*.jqTransformInputWrapper {
+	background: transparent url(../img/input-left.png) no-repeat left top;
+	height: 30px;
+	padding: 2px 0 0;
+	float:left;
+}
+
+.jqTransformInputInner {
+	background: transparent url(../img/input-right.gif) no-repeat top right;
+	height: 30px;
+	padding: 2px 0 0;
+}
+
+.jqTransformInputInner div {
+	height: 30px;
+	margin:0px 0px 0px 8px;
+}
+
+.jqTransformInputInner div input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height: 30px;
+	vertical-align: middle;
+	height: 30px;
+	color:#0e5084;	
+	border: none;
+	padding: 0;
+	margin: 0px;
+	background:transparent;
+}*/
+
+/*  IE6 */
+/* html .jqTransformInputInner div input {
+	padding: 6px 0 0 0;
+	margin: 0 0 0 -8px;
+	height:24px;
+}
+/* Ie7 */
+/**+ html .jqTransformInputInner div input {
+	padding: 6px 0 0 0;
+	margin-left:-10px;
+	height:24px;
+}
+
+
+
+
+.jqTransformSafari .jqTransformInputInner div {
+	position: relative;
+	overflow: hidden;
+	margin:0px 8px;
+}
+.jqTransformSafari .jqTransformInputInner div input {
+	background-color: none;
+	position: absolute;
+	top: -10px;
+	left: -2px;
+	height: 42px; 
+	padding-left: 4px;
+}
+*/
+
+
+/* -------------
+ * Textarea
+ * ------------- 
+
+table.jqTransformTextarea td#jqTransformTextarea-mm textarea{
+	font-size: 12px;
+	line-height: 16px;
+}
+
+table.jqTransformTextarea td{
+font-size: 1px;
+line-height: 1px;
+width: 5px;
+height: 5px;
+margin: 0;
+padding: 0;
+}
+table.jqTransformTextarea{}
+table.jqTransformTextarea tr{
+/*border: 1px solid red;*/
+
+/*
+table.jqTransformTextarea textarea{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+table.jqTransformTextarea td#jqTransformTextarea-tl{background: url(../img/textarea/textarea_tl.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-tm{background: url(../img/textarea/textarea_tm.gif) repeat-x top left;}
+table.jqTransformTextarea td#jqTransformTextarea-tr{background: url(../img/textarea/textarea_tr.gif) no-repeat top left;}
+
+table.jqTransformTextarea td#jqTransformTextarea-ml{background: url(../img/textarea/textarea_ml.gif) repeat-y top left;}
+table.jqTransformTextarea td#jqTransformTextarea-mm{background: url(../img/textarea/textarea-mm.gif) repeat;}
+table.jqTransformTextarea td#jqTransformTextarea-mr{background: url(../img/textarea/textarea_mr.gif) repeat-y top left;}
+
+table.jqTransformTextarea td#jqTransformTextarea-bl{background: url(../img/textarea/textarea_bl.gif) no-repeat top left;}
+table.jqTransformTextarea td#jqTransformTextarea-bm{background: url(../img/textarea/textarea_bm.gif) repeat-x top left;}
+table.jqTransformTextarea td#jqTransformTextarea-br{background: url(../img/textarea/textarea_br.gif) no-repeat top left;}
+
+/*hover*//*
+table.jqTransformTextarea-hover td#jqTransformTextarea-tl{background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-tm{background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-tr{background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-ml{background-position:-5px 0px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-mm{background-image: url(../img/textarea/textarea-mm-hover.gif);}
+table.jqTransformTextarea-hover td#jqTransformTextarea-mr{background-position:-5px 0px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-bl{background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-bm{background-position:0px -5px;}
+table.jqTransformTextarea-hover td#jqTransformTextarea-br{background-position:0px -5px;}
+
+/*focus*//*
+table.jqTransformTextarea-focus td#jqTransformTextarea-tl{background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-tm{background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-tr{background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-ml{background-position:-10px 0px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-mm{background-image: url(../img/textarea/textarea-mm-focus.gif);}
+table.jqTransformTextarea-focus td#jqTransformTextarea-mr{background-position: -10px 0px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-bl{background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-bm{background-position:0px -10px;}
+table.jqTransformTextarea-focus td#jqTransformTextarea-br{background-position:0px -10px;}
+
+
+table.jqTransformTextarea .jqTransformSafariTextarea div {
+	position: relative;
+	overflow: hidden;
+	border: 0px solid red;
+}
+table.jqTransformTextarea .jqTransformSafariTextarea textarea{
+	background: none;
+	position: absolute;
+	top:-10px;
+	left:-10px;
+	padding: 10px 10px 10px 10px;
+	resize: none;
+}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- *//*
+span.jqTransformCheckboxWrapper{
+	display:block;float:left;
+	margin-top:5px;
+}
+a.jqTransformCheckbox {
+	background: transparent url(../img/checkbox.gif) no-repeat center top;
+	vertical-align: middle;
+	height: 19px;
+	width: 18px;
+	display:block;/*display: -moz-inline-block;
+}*/
+
+/* -------------
+ * Radios
+ * ------------- */
+.jqTransformRadioWrapper {float:left; display:block; margin:9px 8px 0 0;}
+.jqTransformRadio {
+	background: transparent url('../images/radio.png') no-repeat center top;
+	vertical-align: middle;
+	height: 18px;
+	width: 18px;
+	display:block;/*display: -moz-inline-block;*/
+}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+a.jqTransformChecked { background-position: center bottom;}
+
+
+/* -------------
+ * Selects
+ * ------------- */
+.jqTransformSelectWrapper{
+	float:left;
+	width: 45px;
+	height: 33px;
+	background:url('../images/select-left.png') no-repeat left center;
+	margin-top:20px;
+}
+
+#boxTipo .jqTransformSelectWrapper  { /* 107-33=74 */
+	width: 74px !important;
+}
+#boxImovel .jqTransformSelectWrapper  {
+	width: 86px !important;
+}
+#boxCidade .jqTransformSelectWrapper  {
+	width: 115px !important;
+}
+#boxBairro .jqTransformSelectWrapper  {
+	width: 97px !important;
+}
+#boxDormit .jqTransformSelectWrapper  {
+	width: 87px !important;
+}
+#boxFaixa .jqTransformSelectWrapper  {
+	width: 127px !important;
+}
+#boxOrdem .jqTransformSelectWrapper  {
+	width: 100px !important;
+}
+#boxFinalidade .jqTransformSelectWrapper,
+#boxBairroCad .jqTransformSelectWrapper,
+#boxCidadeCad .jqTransformSelectWrapper,
+#boxPerfil .jqTransformSelectWrapper,
+#boxCategoria .jqTransformSelectWrapper,
+#boxEstado .jqTransformSelectWrapper,
+#boxTrabalha .jqTransformSelectWrapper,
+#boxDormitorio .jqTransformSelectWrapper {
+	background:url('../images/select-left-int.png') no-repeat left center;
+	margin-top:0px;
+	width: 317px !important;
+}
+#boxDormitorio .jqTransformSelectWrapper,
+#boxTrabalha .jqTransformSelectWrapper,
+#boxEstado .jqTransformSelectWrapper {
+	width: 225px !important;
+}
+#boxCategoria .jqTransformSelectWrapper {
+	width: 587px !important;
+}
+.jqTransformSelectWrapper div span {
+	font-size: 16px;
+	color:#666;
+	float: none;
+	position: absolute;
+	white-space: nowrap;
+	height: 33px;
+	line-height: 33px;
+	padding: 2px 0 0 13px;
+	overflow: hidden;
+	cursor:pointer;
+	font-family:'ProximaNovaRegular', Tahoma, Geneva, sans-serif;
+}
+#boxFinalidade .jqTransformSelectWrapper div span,
+#boxBairroCad .jqTransformSelectWrapper div span,
+#boxCidadeCad .jqTransformSelectWrapper div span,
+#boxPerfil .jqTransformSelectWrapper div span,
+#boxCategoria .jqTransformSelectWrapper div span,
+#boxEstado .jqTransformSelectWrapper div span,
+#boxTrabalha .jqTransformSelectWrapper div span,
+#boxDormitorio .jqTransformSelectWrapper div span {
+	padding: 1px 0 0 13px;
+}
+.jqTransformSelectWrapper a.jqTransformSelectOpen {
+	background:url('../images/select-right.png') no-repeat center center;
+	display: block;
+	position: absolute;
+	right:0px;
+	width: 33px;
+	height: 33px;
+	padding-top:0px;
+	font-size:18px;
+}
+#boxFinalidade .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxBairroCad .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxCidadeCad .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxPerfil .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxCategoria .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxEstado .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxTrabalha .jqTransformSelectWrapper a.jqTransformSelectOpen,
+#boxDormitorio .jqTransformSelectWrapper a.jqTransformSelectOpen {
+	background:url('../images/select-right-int.png') no-repeat center center;
+}
+.jqTransformSelectWrapper ul {
+	position: absolute;
+	width: 43px;
+	top: 50px;
+	left: 0px;
+	list-style: none;
+	background-color: #FFF;
+	border: solid 0px #FFF;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	overflow-x: hidden !important;
+	z-index:10;
+}
+
+#boxTipo .jqTransformSelectWrapper ul {
+	width: 107px !important;
+}
+#boxImovel .jqTransformSelectWrapper ul {
+	width: 160px !important;
+	max-height: 312px !important;
+}
+#boxCidade .jqTransformSelectWrapper ul {
+	width: 192px !important;
+	height: 335px !important;
+}
+#boxBairro .jqTransformSelectWrapper ul {
+	width: 200px !important;
+	height: 355px !important;
+}
+#boxDormit .jqTransformSelectWrapper ul {
+	width: 120px !important;
+	height: 130px !important;
+}
+#boxFaixa .jqTransformSelectWrapper ul {
+	width: 165px !important;
+	height: 156px !important;
+}
+#boxOrdem .jqTransformSelectWrapper ul {
+	width: 133px !important;
+	height: 78px !important;
+	z-index:200;
+}
+#boxFinalidade .jqTransformSelectWrapper ul,
+#boxBairroCad .jqTransformSelectWrapper ul,
+#boxCidadeCad .jqTransformSelectWrapper ul,
+#boxPerfil .jqTransformSelectWrapper ul,
+#boxCategoria .jqTransformSelectWrapper ul,
+#boxEstado .jqTransformSelectWrapper ul,
+#boxTrabalha .jqTransformSelectWrapper ul,
+#boxDormitorio .jqTransformSelectWrapper ul {
+	top: 29px;
+	width: 349px !important;
+}
+#boxDormitorio .jqTransformSelectWrapper ul,
+#boxTrabalha .jqTransformSelectWrapper ul,
+#boxEstado .jqTransformSelectWrapper ul {
+	width: 257px !important;
+}
+#boxCategoria .jqTransformSelectWrapper ul {
+	width: 619px !important;
+}
+.jqTransformSelectWrapper ul a,
+#boxFinalidade .jqTransformSelectWrapper ul a,
+#boxBairroCad .jqTransformSelectWrapper ul a,
+#boxCidadeCad .jqTransformSelectWrapper ul a,
+#boxPerfil .jqTransformSelectWrapper ul a,
+#boxCategoria .jqTransformSelectWrapper ul a,
+#boxEstado .jqTransformSelectWrapper ul a,
+#boxTrabalha .jqTransformSelectWrapper ul a,
+#boxDormitorio .jqTransformSelectWrapper ul a {
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	color:#666;
+	background: #FFF url('../images/border-select-busca.png') repeat-y left;
+	font-size: 14px;
+	font-family:'ProximaNovaRegular', Tahoma, Geneva, sans-serif;
+}
+#boxFinalidade .jqTransformSelectWrapper ul a,
+#boxBairroCad .jqTransformSelectWrapper ul a,
+#boxCidadeCad .jqTransformSelectWrapper ul a,
+#boxPerfil .jqTransformSelectWrapper ul a,
+#boxCategoria .jqTransformSelectWrapper ul a,
+#boxEstado .jqTransformSelectWrapper ul a,
+#boxTrabalha .jqTransformSelectWrapper ul a,
+#boxDormitorio .jqTransformSelectWrapper ul a {
+	background-color:#f9f5f5;
+}
+.jqTransformSelectWrapper ul a.selected,
+#boxFinalidade .jqTransformSelectWrapper ul a.selected,
+#boxBairroCad .jqTransformSelectWrapper ul a.selected,
+#boxCidadeCad .jqTransformSelectWrapper ul a.selected,
+#boxPerfil .jqTransformSelectWrapper ul a.selected,
+#boxCategoria .jqTransformSelectWrapper ul a.selected,
+#boxEstado .jqTransformSelectWrapper ul a.selected,
+#boxTrabalha .jqTransformSelectWrapper ul a.selected,
+#boxDormitorio .jqTransformSelectWrapper ul a.selected {
+	color:#FFFFFF;
+	font-family:'ProximaNovaRegular', Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	background:#666;
+}
+
+.jqTransformSelectWrapper ul a:hover,
+#boxFinalidade .jqTransformSelectWrapper ul a:hover,
+#boxBairroCad .jqTransformSelectWrapper ul a:hover,
+#boxCidadeCad .jqTransformSelectWrapper ul a:hover,
+#boxPerfil .jqTransformSelectWrapper ul a:hover,
+#boxCategoria .jqTransformSelectWrapper ul a:hover,
+#boxEstado .jqTransformSelectWrapper ul a:hover,
+#boxTrabalha .jqTransformSelectWrapper ul a:hover,
+#boxDormitorio .jqTransformSelectWrapper ul a:hover,
+#boxFinalidade .jqTransformSelectWrapper ul a.selected:hover,
+#boxBairroCad .jqTransformSelectWrapper ul a.selected:hover,
+#boxCidadeCad .jqTransformSelectWrapper ul a.selected:hover,
+#boxPerfil .jqTransformSelectWrapper ul a.selected:hover,
+#boxCategoria .jqTransformSelectWrapper ul a.selected:hover,
+#boxEstado .jqTransformSelectWrapper ul a.selected:hover,
+#boxTrabalha .jqTransformSelectWrapper ul a.selected:hover,
+#boxDormitorio .jqTransformSelectWrapper ul a.selected:hover {
+	background: #8D8D8D;
+	color:#FFF;
+	font-family:'ProximaNovaRegular', Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}
