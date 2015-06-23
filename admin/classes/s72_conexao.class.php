@@ -9,7 +9,10 @@
 			// verifica servidor interno ou servidor externo
 			if($_SERVER['HTTP_HOST'] == '192.168.0.66'){
 				$this->setAtributos('192.168.0.12','nimbus','master','123');
-			} else{
+			} else
+			if( in_array( $_SERVER['REMOTE_ADDR'], array( '127.0.0.1', '::1', 'localhost' ) ) ) { 
+				$this->setAtributos('localhost','nimbus','root','');
+			}else{
 				$this->setAtributos(null,null,null,null);
 			}
 		}
