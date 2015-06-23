@@ -1,0 +1,82 @@
+/* CSS -  reset.css - estilo que zera todo css */
+@import url(reset.css);
+
+/* CSS - Hacks */
+* html #tudo {height: 100%; /* hack para IE6 que trata height como min-height */}
+
+/* CSS -  Global */
+html {overflow: -moz-scrollbars-vertical; height:100%;}
+
+body{
+	font-family: Tahoma;
+	font-size: 11px;
+	margin:0 auto;
+	margin-top:0;
+	padding:0;
+	text-align:center;
+	color: #666666;
+	height:100%;
+}
+
+#tudo{
+	position:relative;
+	min-height: 100%;
+}
+
+#rodape{
+	color:#FFF;
+	border-top:4px solid #D2D2D2;
+	height:20px;
+	padding-top:10px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#logo{width:140px; height:80px;text-align:center; float:left; display:inline;}
+
+/* mensagens de erro */
+#msg_erro{width:280px; background-color:#FFF; padding:0 5px 10px 0; text-align:left; min-height:120px;}
+#msg_erro img{float:left; margin:0 20px 80px 20px;}
+#msg_erro input{float:right; margin-right:90px;}
+.black_overlay{display: none;position: absolute;top:0;left:0;width: 100%;height: 100%;background-color: black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+.white_content {display: none;position: absolute;top: 50%;left: 50%;margin-left:-140px;margin-top:-70px;text-align:center;padding: 10px;background-color: white;z-index:1002;overflow: auto;}
+#Mensagens{z-index:999;position:absolute;border:0px solid #000000; background-color:#000;opacity: .80;filter: alpha(Opacity=80);width:100%;height:100%;visibility:hidden;}
+#Caixa{position:absolute;z-index:999;width:368px;height:300px;top: 50%;left: 50%;margin-top: -95px;margin-left: -110px;position: absolute;background-color:#FFFFFF;}
+
+.sombra{float:left;}
+
+.clear{clear:both;}
+
+.textoMenuFixo{color:#FFF; font-weight:bold;}
+ul.bloco-paginacao{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	cursor: default;
+}
+ul.bloco-paginacao li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width: 20px;
+	float:left;
+	border:1px solid #DDDDDD;
+	text-align:center;
+	margin-left:1px; 
+	margin-right:1px;
+}
+ul.bloco-paginacao li a{display:block;}
+ul.bloco-paginacao li a:hover, ul.bloco-paginacao li a.texto1{background-color:#999; color:#FFF;}
+
+.error{color:#900;}
+.texto2{color:#090;}
+
+
+
+

@@ -1,0 +1,29 @@
+/* CSS -  Global.css - estilo principal do admin */
+@import url(global.css);
+/* CSS -  arquivo que faz o estilo do index.php - Require Global.css */
+#container{
+	margin:0 auto;
+	padding-top:26px;
+	width:310px;
+}
+
+fieldset{
+	background:url(../img/bg-detalhe-left.jpg) repeat-y;
+	padding:10px 10px 10px 20px;
+	text-align:left;
+	width:210px;
+	height:160px;
+	margin:0 auto;
+	border:1px solid #DDD;
+	display:block;
+}
+
+.form{background-color:#FFF; float:left;width:250px; padding:10px 15px 0 15px;}
+.form .label { float:left; width:100px; margin:6px 0 0 0; }
+.form .input { width:205px;	height:18px; border:1px solid #c4c4c4; font-size:13px; padding-left:5px; }
+.clear{clear:both;}
+h1 {border-bottom:1px dotted; padding-bottom:3px; margin-bottom:10px;}
+h1 span {font-weight:bold;}
+label input{margin-bottom:10px;}
+
+

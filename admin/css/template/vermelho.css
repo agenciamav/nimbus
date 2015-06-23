@@ -1,0 +1,18 @@
+/* Estilos Globais [vai haver replace caso algum template seja selecionado] */
+
+body{background:url(../../img/template/vermelho/bg.gif) repeat-x top;}
+
+#rodape{background:url(../../img/template/vermelho/bg-rodape.gif) repeat top;}
+
+.botao1 {width:75px;height:24px;text-align:center; color:#5f5f5f; border:1px solid #aaa; display:block; cursor:pointer; font-weight:bold;}
+.botao1:hover {color:#ffffff; border:1px solid #5f5f5f; background-color:#5F5F5F; }
+.texto1 {color:#97372B; font-weight:bold;}
+.borda {margin-top:-1px;border:1px dashed #97372B; float:left; padding:5px 0 5px 5px;}
+
+a {color:#666666; text-decoration:none;}
+a:visited {color:#666666; text-decoration:none;}
+a:hover {color:#97372B; text-decoration:none;}
+
+.bg-menu-template{background:none; background:url(../../img/template/vermelho/bg-menu-fixo.jpg) repeat;}
+
+.white_content{border: 5px solid #545454; background-color:#D2D2D2;}  /* lightbox */
