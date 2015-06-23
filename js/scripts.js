@@ -1,6 +1,9 @@
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ab0ee1a52f0cdf0a19ab131e94f88d7324f371fb
 /* stick carousel - obras */
 $(document).ready(function(){
   $('.your-class').slick({
