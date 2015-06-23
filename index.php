@@ -315,6 +315,7 @@
 
 
 			</div>
+			<
 		</div>
 	</section>
 	<!-- /Mapa -->
@@ -327,12 +328,13 @@
 		</div>
 
 		<div class="col-md-2">
-			<p><a href="http://www.s72.com.br" target="_blank">S72</a></p>
-		</div>
+			<p><a href="http://www.s72.com.br">
+				S72</a></p>
+			</div>
 
-	</footer>
-	<!-- /rodapé -->
+		</footer>
+		<!-- /rodapé -->
 
-	<?php include('inc/footer.php'); ?>		
-</body>
-</html>
+		<?php include('inc/footer.php'); ?>		
+	</body>
+	</html>
