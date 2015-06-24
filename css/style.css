@@ -6,6 +6,7 @@
 /* BASICS */
 body{
   font-family: "nexa", serif;
+  background-color: #fff;
 }
 
 h1, h2{
@@ -23,7 +24,6 @@ hr {
   border-top: 10px solid #393e51;
   float: left;
 }
-
 
 
 /* HEADER */
@@ -53,12 +53,49 @@ li.separator a {
 .navbar-nav>li>a {
   line-height: 16px;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #2b2f3e;
+  background-color: #FAFAFA;
+}
+.top-nav-collapse {
+        padding: 0;
+    }
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+}
+
+.conheca-section {
+    padding-top: 100px;
+}
+
+.emandamento-section {
+    padding-top: 100px;
+}
+
+.obras-section {
+    padding-top: 100px;
+}
+.contato-section {
+    padding-top: 100px;
+}
 
 /* SECTION SLIDER */
 
 #header_slider{
   margin-top: 98px;
 }
+#header_slider h1{
+  font-size: 60px;
+}
+#header_slider p{
+  font-size: 22px;
+  font-weight: 200;
+}
+
 #header_slider hr {
   width: 120px;
   margin-top: 12px;
@@ -89,6 +126,58 @@ li.separator a {
   cursor: pointer;
 
 }
+#header_slider{
+  margin-top: 98px;
+}
+#header_slider hr {
+  width: 120px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 0;
+  border-top: 3px solid #ced0d2;
+  float: right;
+}
+@media (max-width: 600px) {
+#header_slider hr {
+  width: 120px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 0;
+  border-top: 3px solid #ced0d2;
+  float: none;
+}
+}
+.carousel-caption {
+  left: 20%;
+  right: 20%;
+  padding-bottom: 30px;
+  text-align: right;
+}
+@media (max-width: 600px) {
+#header_slider .carousel-caption {
+  left: 20%;
+  right: 20%;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: rgba(57, 62, 82, 0.89);
+}
+}
+
+.carousel-indicators {
+  bottom: 20px;
+  text-align: right;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  background-color: #fff;
+  border-radius: 0;
+  cursor: pointer;
+
+}
 .carousel-indicators .active {
   margin: 0;
   width: 12px;
@@ -101,6 +190,13 @@ li.separator a {
 
 #conheca{
   padding: 80px 0;
+}
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #c1c1c3;
+    border: none;
 }
 
 #conheca p {
@@ -124,7 +220,6 @@ li.separator a {
   margin-bottom: 42px;
 }
 
-
 /* SECTION EM ANDAMENTO */
 
 #emandamento p {
@@ -138,11 +233,24 @@ li.separator a {
   color: #fff;
   margin-top: 15%;
 }
+#emandamento h3 {
+ font-size:18px;
+ float:left;
+ width: 100%;
+}
 #emandamento .carousel .carousel-caption {
   left: 20%;
   right: 20%;
   padding-bottom: 30px;
   text-align: left;
+}
+@media (max-width: 768px) {
+  #emandamento .carousel .carousel-caption {
+  left: 20%;
+  right: 20%;
+  padding-bottom: 300px;
+  text-align: left;
+}
 }
 #emandamento .carousel .carousel-caption h2 {
   font-size: 54px;
@@ -158,6 +266,35 @@ li.separator a {
   border-top: 10px solid #FFFFFF;
   float: left;
 }
+#emandamento .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  line-height: 1;
+  height: 575px;
+}
+@media (max-width: 768px) {
+#emandamento .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  line-height: 1;
+  height: 1000px;
+}
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  line-height: 1;
+  height: 500px;
+}
+#emandamento .logo {
+  padding: 0px;
+  float: left;
+  height: 125px;
+  background-color: transparent;
+}
+.mansory{
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   line-height: 1;
   height: 100%;
@@ -169,7 +306,6 @@ li.separator a {
   bottom: 20px;
   z-index: 10;
   /* padding-top: 20px; */
-  /* padding-bottom: 20px; */
   color: #fff;
   text-align: center;
 
@@ -326,8 +462,6 @@ section#obrasconcluidas{
   color: #000;
   padding: 10px;
 }
-
-
 /* MAPA */
 #mapa{
   padding-top: 480px;

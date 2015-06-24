@@ -9,6 +9,10 @@
 <script type="text/javascript" src="slide-obras/slick/slick.js"></script>
 <script type="text/javascript" src="slide-obras/slick/slick.min.js"></script>
 
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>	
+
 <!-- Obras Slider -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.11/jquery.mousewheel.min.js"></script>
 <script src="js/jquery.carousel-1.1.min.js"></script>
