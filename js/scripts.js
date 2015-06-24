@@ -1,14 +1,32 @@
 
-/* stick carousel - obras */
-$(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
-  });
-});
-
 /* formulário */
 $(document).ready(function(){ 
+
+    // Obras Slider
+    //  ->  http://www.jqueryscript.net/slideshow/Coverflow-Style-Image-Carousel-Plugin-For-jQuery-Carousel-Evolution.html
+    $('#obras_slider').carousel({
+        carouselWidth: 261,        
+        carouselHeight: 436,
+        frontWidth: 261,
+        // frontHeight: 337,
+        directionNav: true,
+        reflection: false,
+        // shadow: false,
+        // buttonNav: false,
+        description: false,
+        descriptionContainer: $('.legend'),
+        autoplay: false,
+        autoplayInterval: 3000,
+        backZoom: 0.9,
+        backOpacity: 0.15,
+        slidesPerScroll: 2,
+        speed: 700,
+        buttonNav: 'none',
+    });
+
+
     $('#characterLeft').text('140 characters left');
+
     $('#message').keydown(function () {
         var max = 140;
         var len = $(this).val().length;
