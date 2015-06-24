@@ -381,26 +381,33 @@
     "@hr-border": "@gray-lighter"
   },
   "css": [
+    "print.less",
     "type.less",
     "grid.less",
     "forms.less",
+    "buttons.less",
     "responsive-utilities.less",
+    "button-groups.less",
     "navs.less",
     "navbar.less",
+    "jumbotron.less",
     "responsive-embed.less",
+    "wells.less",
     "close.less",
     "component-animations.less",
     "dropdowns.less",
     "carousel.less"
   ],
   "js": [
+    "button.js",
     "carousel.js",
     "dropdown.js",
+    "modal.js",
     "tab.js",
     "affix.js",
     "collapse.js",
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=bffd3d933e584f93b281"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1073b0c0e8ab09a79187"
 }

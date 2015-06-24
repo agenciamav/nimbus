@@ -1,6 +1,6 @@
 <?
 	/*
-	** Inicializaçao da Sessao.
+	** InicializaÃ§ao da Sessao.
 	*/
 	
 	session_cache_expire(3600);
@@ -10,21 +10,21 @@
 	require('classes/s72_usuario.class.php');
 	
 	/*
-	** Inicializaçao dos Objetos.
+	** InicializaÃ§ao dos Objetos.
 	*/
 	
 	$conexao = new Conexao; 
 	$usuario = new Usuario;
 	
 	/*
-	** Variáveis do FORM.
+	** VariÃ¡veis do FORM.
 	*/
 	
 	extract($_POST);
 	
 	
 	/*
-	** Verificaçao da conexao com o Banco de Dados.
+	** VerificaÃ§ao da conexao com o Banco de Dados.
 	*/
 	
 	if(!$conexao->conectarMysql()) {
@@ -32,7 +32,7 @@
 	} 
 	
 	/*
-	** Verificaçao do usuário
+	** VerificaÃ§ao do usuÃ¡rio
 	*/
 	
 	if(empty($login) || empty($senha) ){
@@ -51,4 +51,3 @@
 		header("location: index.php");
 		exit();
 	}
-?>
