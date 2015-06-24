@@ -1,0 +1,214 @@
+/* OBRAS */
+#obras_slider {
+  position : relative;
+  margin : 0 auto;
+  width: 550px;
+  /* height: 490px; */
+  border : none;
+  overflow : visible;
+}
+
+/* _______________________________________________ */
+
+/* SLIDES */
+/* _______________________________________________ */
+
+/* slide container */
+
+#obras_slider .slides {
+  margin: 0 auto;
+  /* padding : 0; */
+  border : none;
+  list-style : none;
+  position : relative;
+  overflow : visible;
+}
+
+/* slide item */
+
+#obras_slider .slides .slideItem {
+  position: absolute;
+  cursor : pointer;
+  /* overflow : hidden; */
+  padding: 0px 0px 0px;
+  margin: 0 0px;
+  border-radius: 2px;
+  width: 266px;  
+  height: 436px !important;
+}
+
+#obras_slider .slides .slideItem .legend{
+  /* border: red 1px solid; */
+
+  margin: 0 -40px;
+}
+
+#obras_slider .slides .slideItem a {
+  display: block;
+  text-decoration : none;
+  margin : 0;
+  padding : 0;
+  border : none;
+  outline : none;
+}
+
+#obras_slider .slides .slideItem img {
+  margin : 0;
+  padding : 0px;
+  border : none;
+  width : 100%;
+  height : 100%;
+  border: 2px solid #fff;
+}
+#obras_slider .slides .slideItem .legend h4 {
+    font-size: 22px;    font-family: "Nexa Heavy";    color: rgb( 57, 62, 81 );    line-height: 0.727;    text-align: center;
+}
+#obras_slider .slides .slideItem .legend p{
+  font-size: 16px;
+  font-family: "Nexa Regular";
+  color: rgb( 151, 151, 153 );
+  line-height: 1.125;
+  text-align: center;
+}
+
+/* _______________________________________________ */
+
+/* DIRECTION BUTTON */
+/* _______________________________________________ */
+
+
+#obras_slider .nextButton {
+  position : absolute;
+  right : 10px;
+  top : 133px;
+  width: 37px;
+  height: 37px;
+  background : url("../images/next_button.png") no-repeat center;
+  cursor : pointer;
+  z-index: 1;
+}
+
+#obras_slider .prevButton {
+  position : absolute;
+  left : 10px;
+  top : 133px;
+  width: 37px;
+  height: 37px;
+  background : url("../images/prev_button.png");
+  cursor : pointer;
+  z-index : 1;
+}
+
+/* _______________________________________________ */
+
+/* NAVIGATION BUTTON */
+/* _______________________________________________ */
+
+/* buttons container */
+
+#obras_slider .buttonNav {
+  position : relative;
+  margin : 0 auto;
+  z-index : 999;
+}
+
+/* numbers */
+
+#obras_slider .buttonNav .numbers {
+  position : relative;
+  float : left;
+  margin : 5px;
+  color : #828282;
+  cursor : pointer;
+  font-weight : bold;
+  text-decoration : none;
+  font-size : 1em;
+  font-family : Arial, Verdana;
+}
+
+#obras_slider .buttonNav .numbers:hover {
+  color: #000;
+  text-decoration : underline;
+}
+
+#obras_slider .buttonNav .numberActive {
+  background : none;
+  color : #000;
+  cursor : default;
+}
+
+/* bullets */
+
+#obras_slider .buttonNav .bullet {
+  position : relative;
+  float : left;
+  width : 16px;
+  height : 16px;
+  background : url(../images/Bullet-White.png) no-repeat center;
+  margin : 5px;
+  float : left;
+  cursor : pointer;
+}
+
+#obras_slider .buttonNav .bullet:hover { background : url(../images/Bullet-Black.png) no-repeat center; }
+
+#obras_slider .buttonNav .bulletActive {
+  background : url(../images/Bullet-Black.png) no-repeat center;
+  cursor : default;
+}
+
+/* ____________________________________________________________ */
+
+/* VIDEO */
+/* ____________________________________________________________ */
+
+
+#obras_slider .slides .videoOverlay { background : url("../images/video.png") no-repeat center; /* play button */ }
+
+#obras_slider .slides .spinner { background : #000 url("../images/loading.gif") no-repeat center; /* video preloader */ }
+
+/* _____________________________ *
+
+/* SHADOW */
+/* _____________________________ */
+
+
+#obras_slider .shadow {
+  width : 100%;
+  height : 82px;
+}
+
+#obras_slider .shadow .shadowLeft {
+  background : url("../images/shadowLeft.png") no-repeat;
+  width : 100px;
+  height : 82px;
+  /* fix png problems in ie */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowLeft.png, sizingmethod=scale)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowLeft.png, sizingmethod=scale);   /* IE6 & 7 */
+}
+
+#obras_slider .shadow .shadowMiddle {
+  height : 82px;
+  background: url("../images/shadowTile.png") repeat-x;
+  /* fix png problems in ie */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowTile.png, sizingmethod=scale)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowTile.png, sizingmethod=scale);   /* IE6 & 7 */
+}
+
+#obras_slider .shadow .shadowRight {
+  width : 100px;
+  height : 82px;
+  background: url("../images/shadowRight.png") no-repeat;
+  /* fix png problems in ie */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowRight.png, sizingmethod=scale)"; /* IE8 */
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/shadowRight.png, sizingmethod=scale);   /* IE6 & 7 */
+}
+
+/* ____________________________________________________________ */
+
+/* REFLECTION GRADIENT */
+/* ____________________________________________________________ */
+
+/* gradient color for Opera */
+
+#obras_slider .gradient { background-image : url(../scripts/gradient.svg); }

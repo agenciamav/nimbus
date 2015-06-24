@@ -4,10 +4,14 @@
 <!-- Bootstrap JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
-<!-- Custom JavaScript -->
-<script src="js/scripts.js"></script>
-
 <!-- slick obras JavaScript -->
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slide-obras/slick/slick.js"></script>
 <script type="text/javascript" src="slide-obras/slick/slick.min.js"></script>
+
+<!-- Obras Slider -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.11/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.carousel-1.1.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="js/scripts.js"></script>
