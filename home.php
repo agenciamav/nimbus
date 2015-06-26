@@ -5,7 +5,7 @@
 
 				<!-- logo-->
 				<div class="navbar-header"> 
-				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
@@ -18,7 +18,7 @@
 
 				<!-- menu -->
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-				<div class="collapse navbar-collapse" id="myNavbar">
+				<div class="collapse navbar-collapse" id="myNavbar" style="height: auto;">
 					<ul class="nav navbar-nav navbar-right">                    
 						<li class="hidden">
                            <a class="page-scroll" href="#page-top"></a>
@@ -187,7 +187,7 @@
 			    
 
 
-			    <!-- slide2-andamento 
+			    <!-- slide2-andamento -->
 			    <div class="item">
 			         
 			           <img src="img/em-andamento/torres/fundo-andamento2.png" class="img-responsive" >
@@ -209,19 +209,19 @@
 			          
 			              
 
-			           <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+			           <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
 
 			            <div class="mansory">    
-			             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 5px;">
+			             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 0;">
                            <img src="img\em-andamento\torres\1.jpg" class="img-responsive"/>
                          </div>
 
-                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 5px;">
-                           <img src="img\em-andamento\torres\2.jpg" class="img-responsive" style="padding-bottom: 7px;"/>
-                           <img src="img\em-andamento\torres\3.jpg" class="img-responsive"/>
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 0;">
+                           <img src="img\em-andamento\torres\2.jpg" class="img-responsive" style="padding-bottom: 11px;padding-left: 10px;"/>
+                           <img src="img\em-andamento\torres\3.jpg" class="img-responsive" style="padding-left: 10px;"/>
                          </div>
 
-                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 5px;">
+                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 0; padding-top:10px;">
 
                            <img src="img\em-andamento\torres\4.jpg" class="img-responsive" />
                          </div>
@@ -233,7 +233,7 @@
 
 			    </div>
 
-               slide3-andamento 
+               <!-- slide3-andamento -->
 			    <div class="item">
 			         
 			           <img src="img/em-andamento/alta-citta/fundo-emandamento.jpg" class="img-responsive" >
@@ -259,16 +259,16 @@
 			           <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 
 			            <div class="mansory">    
-			             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 5px;">
-                           <img src="img\em-andamento\porto\1.jpg" class="img-responsive"/>
+			             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 0;">
+                           <img src="img\em-andamento\porto\1.jpg" class="img-responsive" />
                          </div>
 
-                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 5px;">
-                           <img src="img\em-andamento\porto\2.jpg" class="img-responsive" style="padding-bottom: 7px;"/>
-                           <img src="img\em-andamento\porto\3.jpg" class="img-responsive"/>
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 0;">
+                           <img src="img\em-andamento\porto\2.jpg" class="img-responsive" style="padding-bottom: 11px;padding-left: 10px;"/>
+                           <img src="img\em-andamento\porto\3.jpg" class="img-responsive" style="padding-left: 10px;"/>
                          </div>
 
-                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 5px;">
+                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 0; padding-top:10px;">
 
                            <img src="img\em-andamento\porto\4.jpg" class="img-responsive" />
                          </div>
@@ -278,7 +278,7 @@
                            
 			        </div>
 
-			    </div>-->
+			    </div>
 			</div>    
 			</div>
 		</section>

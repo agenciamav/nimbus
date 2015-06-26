@@ -33,6 +33,7 @@ hr {
   height: 125px;    
   background-color: #393e51;  
 } 
+
 @media (max-width: 600px) {
 #myNavbar {
   background-color: #fff;
@@ -47,6 +48,15 @@ hr {
   float: right !important;
   margin-right: -15px;
   margin-top: 15px;
+}
+@media (max-width: 360px) {
+.navbar-default .navbar-brand {
+  color: #909194;
+  width: 50%;
+}
+.logo {
+  height: 80px;    
+} 
 }
 
 li.separator a {
@@ -111,7 +121,13 @@ of those sections to manage the look and feel of the site. */
   border-top: 3px solid #ced0d2;
   float: right;
 }
-
+@media (max-width: 600px) {
+#header_slider .img-responsive, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  display: block;
+  max-width: 200%;
+  height: auto;
+}
+}
 .carousel-caption {
   left: 20%;
   right: 20%;
@@ -152,6 +168,11 @@ of those sections to manage the look and feel of the site. */
   border: 0;
   border-top: 3px solid #ced0d2;
   float: none;
+}
+#header_slider .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  line-height: 1;
+  height: 570px;
+  width: 200% !important;
 }
 }
 .carousel-caption {
@@ -314,7 +335,7 @@ of those sections to manage the look and feel of the site. */
   padding-bottom: 50px;
   width: 500px;
 }
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   .mansory {
 
   left: 15%;
@@ -326,10 +347,28 @@ of those sections to manage the look and feel of the site. */
   width: 70%;
 }
 }
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  line-height: 1;
-  height: 500px;
+@media (min-width: 468px) and (max-width: 600px) {
+  .mansory {
+    left: 15%;
+  right: 15%;
+  width: 50%;
 }
+}
+@media (min-width: 600px) and (max-width: 750px) {
+  .mansory {
+    left: 15%;
+  right: 15%;
+  width: 40%;
+}
+}
+@media (min-width: 750px) and (max-width: 968px) {
+  .mansory {
+    left: 15%;
+  right: 15%;
+  width: 35%;
+}
+}
+
 .mansory{
   position: absolute;
   /* left: 15%; */
