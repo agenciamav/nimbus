@@ -4,7 +4,12 @@
 			<div class="container">
 
 				<!-- logo-->
-				<div class="navbar-header">             
+				<div class="navbar-header"> 
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>    
 					<a class="navbar-brand logo" href="#header">
 						<img src="img/logo.jpg" alt="Logo" class="img-responsive">
 					</a>
@@ -12,8 +17,8 @@
 				<!-- fim logo-->
 
 				<!-- menu -->
-				<div class="col-md-9 col-lg-9">
-				<div class="collapse navbar-collapse">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">                    
 						<li class="hidden">
                            <a class="page-scroll" href="#page-top"></a>
@@ -39,10 +44,10 @@
 							</a>
 						</li>		
 					</ul>
-				</div>
+				
 				</div>
 				<!-- fim menu-->
-
+            </div>
 			</div>
 			<!-- /.container-->
 		</nav>	
@@ -131,8 +136,8 @@
 			        <li data-target="#slider_emandamento" data-slide-to="1" class=""></li>
 			        <li data-target="#slider_emandamento" data-slide-to="2" class="active"></li>
 			    </ol>-->
-			    <a class="left carousel-control" href="#slider_emandamento" data-slide="prev"><i class="fa fa-chevron-left"></i></span></a>
-			    <a class="right carousel-control" href="#slider_emandamento" data-slide="next"><i class="fa fa-chevron-right"></i></span></a>
+			    <a class="left carousel-control" href="#slider_emandamento" data-slide="prev"><img src="images/prev_button_white.png" alt="" class="img-responsive"></span></a>
+			    <a class="right carousel-control" href="#slider_emandamento" data-slide="next"><img src="images/next_button_white.png" alt="" class="img-responsive"></i></span></a>
 			    <div class="carousel-inner">
 			       
 			       <!-- slide1-andamento -->
@@ -156,19 +161,19 @@
 			          
 			              
 
-			           <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+			           <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
 
 			            <div class="mansory">    
-			             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding:5px;">
+			             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 0;">
                            <img src="img\em-andamento\alta-citta\1.jpg" class="img-responsive"/>
                          </div>
 
-                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 5px; ">
-                           <img src="img\em-andamento\alta-citta\2.jpg" class="img-responsive" style="padding-bottom: 7px;"/>
-                           <img src="img\em-andamento\alta-citta\3.jpg" class="img-responsive"/>
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 0;">
+                           <img src="img\em-andamento\alta-citta\2.jpg" class="img-responsive" style="padding-bottom: 11px;padding-left: 10px;"/>
+                           <img src="img\em-andamento\alta-citta\3.jpg" class="img-responsive" style="padding-left: 10px;"/>
                          </div>
 
-                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 5px;">
+                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 0; padding-top:10px;">
 
                            <img src="img\em-andamento\alta-citta\4.jpg" class="img-responsive" />
                          </div>
@@ -182,7 +187,7 @@
 			    
 
 
-			    <!-- slide2-andamento -->
+			    <!-- slide2-andamento 
 			    <div class="item">
 			         
 			           <img src="img/em-andamento/torres/fundo-andamento2.png" class="img-responsive" >
@@ -228,7 +233,7 @@
 
 			    </div>
 
-                <!-- slide3-andamento -->
+               slide3-andamento 
 			    <div class="item">
 			         
 			           <img src="img/em-andamento/alta-citta/fundo-emandamento.jpg" class="img-responsive" >
@@ -273,7 +278,7 @@
                            
 			        </div>
 
-			    </div>
+			    </div>-->
 			</div>    
 			</div>
 		</section>
@@ -284,14 +289,14 @@
 				<div class="container">
 					<div class="row">
 						
-						<div class="col-md-3">
+						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 							<h2>Obras concluídas</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ut tenetur ullam! Iusto deleniti doloremque voluptates id, repudiandae cupiditate placeat doloribus neque natus odit minus laborum, earum ad harum maxime.</p>
 						</div>
 
 
 						<!-- carousel -->
-						<div class="col-md-9">
+						<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 
 
 							<div id="obras_slider" class="slider">

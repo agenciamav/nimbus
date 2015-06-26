@@ -7,6 +7,16 @@
   border : none;
   overflow : visible;
 }
+@media (max-width: 768px) {
+#obras_slider {
+  position: relative;
+  margin: auto 5px;
+  width: 100%;
+  height: 490px;
+  border: none;
+  overflow: visible;
+}
+}
 
 /* _______________________________________________ */
 
